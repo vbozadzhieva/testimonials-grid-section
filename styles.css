@@ -153,3 +153,25 @@ body {
 footer {
     text-align: center;
 }
+
+/* media queries */
+@media(max-width: 768px) {
+    .testimonials {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .card-purple {
+        grid-column: 1;
+    }
+
+    .card-darkgrey {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .card-white-stretched {
+        grid-column: 1;
+        grid-row: 5;
+    }
+}
